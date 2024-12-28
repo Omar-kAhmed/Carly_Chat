@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://carly-chat-frontend-00gq.onrender.com/login",
+    origin: "https://carly-chat-frontend-00gq.onrender.com",
     credentials: true,
   })
 );
