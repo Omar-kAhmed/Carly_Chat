@@ -7,7 +7,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: ["https://carly-chat-frontend-00gq.onrender.com/login"],
+    origin: ["https://carly-chat-frontend-00gq.onrender.com"],
   },
 });
 
